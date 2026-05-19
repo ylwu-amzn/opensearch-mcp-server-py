@@ -108,6 +108,7 @@ markers = [
     "no_auth: Requires no-auth cluster access",
     "server_modes: Server mode tests (single and multi-cluster)",
     "dynamic_connection: Dynamic per-call connection parameter tests",
+    "requires_ml_tool: Skip test when the specified ML tool is not registered on the cluster",
 ]
 testpaths = ["tests"]
 asyncio_mode = "auto"
